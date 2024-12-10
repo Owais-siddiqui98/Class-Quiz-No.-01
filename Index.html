@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: aliceblue;
+            margin: auto;
+            margin-top: 100px;
+            width: 80%;
+            height: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .card1,
+        .card2,
+        .card3 {
+            background-color: white;
+            height: 400px;
+            width: 25%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .image {
+            height: 50%;
+            width: auto;
+            background-image: url(Image1.JPG);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        .heading {
+            position: relative;
+            bottom: 10px;
+        }
+
+        button {
+            color: white;
+            width: 100px;
+            height: 20px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(0, 247, 255);
+        }
+
+        .heading,
+        .paragraph,
+        .subHeading {
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: left;
+            margin-bottom: 20px;
+        }
+
+        .profilePic {
+            height: 50px;
+            width: 50px;
+            background-image: url(Pimage1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .description {
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card1">
+            <div class="image"></div>
+            <div class="heading"><button>Technology</button></div>
+            <div class="subHeading">Why is the Tesla CyberTruck design the way it is?</div>
+            <div class="paragraph">An exploration into the truck's polarizing design.</div>
+            <div class="profile">
+                <div class="profilePic"></div>
+                <div class="description">
+                    <p>july december</p>
+                    <p>2h ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="image" style="background-image: url(Image2.JPG);"></div>
+            <div class="heading"><button style="background-color: rgb(0, 132, 255)">Technology</button></div>
+            <div class="subHeading">Why is the Tesla CyberTruck design the way it is?</div>
+            <div class="paragraph">An exploration into the truck's polarizing design.</div>
+            <div class="profile">
+                <div class="profilePic" style="background-image: url(Pimage2.jpg);"></div>
+                <div class="description">
+                    <p>july december</p>
+                    <p>2h ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card3">
+            <div class="image" style="background-image: url(Image3.JPG);"></div>
+            <div class="heading"><button style="background-color: rgb(119, 0, 255)">Technology</button></div>
+            <div class="subHeading">Why is the Tesla CyberTruck design the way it is?</div>
+            <div class="paragraph">An exploration into the truck's polarizing design.</div>
+            <div class="profile">
+                <div class="profilePic" style="background-image: url(Pimage3.jpg);"></div>
+                <div class="description">
+                    <p>july december</p>
+                    <p>2h ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
